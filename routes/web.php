@@ -13,8 +13,8 @@ use App\Http\Controllers\MapsController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-Route::get('/HandsOn1', [MapsController::class, 'ShowMapsGabungan']); 
+Route::get('/', function () {
+    return view('landingPage');
+});
+Route::get('/HandsOn1', [MapsController::class, 'ShowMapsTugas1']); 
+Route::get('/Latihan1', [MapsController::class, 'ShowMapsLatihan1']); 

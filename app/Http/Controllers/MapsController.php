@@ -6,7 +6,10 @@ use Illuminate\Http\Request;
 
 class MapsController extends Controller
 {
-    public function ShowMapsGabungan() {
-        return view('mapsGabungan');
+    public function ShowMapsTugas1() {
+        return view('mapsTugas1');
+    } 
+    public function ShowMapsLatihan1() {
+        return view('mapsLatihan1');
     } 
 }
